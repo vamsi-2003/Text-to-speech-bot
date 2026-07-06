@@ -4,9 +4,10 @@ A sleek, modern desktop GUI application that converts typed text into speech usi
 
 ---
 
-## 🚀 Live Demo
-*   **Live Demo**: [Try the Live Demo here](https://vamsi-2003.github.io/Text-to-speech-bot/)
-*   **Releases & Downloads**: [Get the latest Executable](https://github.com/vamsi-2003/Text-to-speech-bot/releases)
+## 🚀 Downloads & Releases
+Since this is a desktop application, it cannot be run directly in the browser. You can download a standalone pre-compiled executable to run it on your machine without installing Python:
+
+*   **Download Executable**: [Get the latest release here](https://github.com/vamsi-2003/Text-to-speech-bot/releases)
 
 ---
 
