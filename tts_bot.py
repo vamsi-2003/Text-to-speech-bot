@@ -121,7 +121,7 @@ class TextToSpeechBot:
             bg=self.card_color,
             fg=self.text_color,
             insertbackground=self.text_color,  # White cursor
-            font=("Segoe UI", 10.5),
+            font=("Segoe UI", 11),
             relief="flat",
             bd=0,
             padx=10,
