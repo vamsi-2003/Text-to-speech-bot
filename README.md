@@ -4,8 +4,8 @@ A sleek, modern desktop GUI application that converts typed text into speech usi
 
 ---
 
-## 🚀 Live Demo & Demo Video
-*   **Demo Video / Walkthrough**: [Watch the Demo Video](https://github.com/vamsi-2003/Text-to-speech-bot) *(Replace with your demo video/Loom link)*
+## 🚀 Live Demo
+*   **Live Demo**: [Try the Live Demo here](https://vamsi-2003.github.io/Text-to-speech-bot/)
 *   **Releases & Downloads**: [Get the latest Executable](https://github.com/vamsi-2003/Text-to-speech-bot/releases)
 
 ---
