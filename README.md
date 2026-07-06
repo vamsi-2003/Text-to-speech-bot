@@ -1,29 +1,87 @@
-# Text-to-Speech Bot (Python)
+# 🎙️ Text-to-Speech Bot (Python)
 
-A desktop GUI application that converts typed text into speech using offline speech synthesis.
+A sleek, modern desktop GUI application that converts typed text into speech using offline speech synthesis. Built with a responsive, multi-threaded architecture to ensure the interface never freezes during playback.
 
-## Features
-- Text input area for typing/pasting content
-- Voice selection dropdown (lists all system-installed voices)
-- Adjustable speech rate slider
-- Speak and Stop controls
-- Non-blocking UI (speech runs on a background thread)
+---
 
-## Tech Stack
-- **Language:** Python 3
-- **GUI:** Tkinter
-- **Speech Engine:** pyttsx3 (offline, no internet/API key required)
+## 🚀 Live Demo & Demo Video
+*   **Demo Video / Walkthrough**: [Watch the Demo Video](https://github.com/vamsi-2003/Text-to-speech-bot) *(Replace with your demo video/Loom link)*
+*   **Releases & Downloads**: [Get the latest Executable](https://github.com/vamsi-2003/Text-to-speech-bot/releases)
 
-## How to Run
-1. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-2. Run the app:
-   ```
-   python tts_bot.py
-   ```
+---
 
-## Notes
-- On Windows, pyttsx3 uses the built-in SAPI5 voices (e.g. Microsoft David, Microsoft Zira).
-- On Linux, install `espeak-ng` for voice support: `sudo apt install espeak-ng`.
+## ✨ Features
+*   **Modern UI**: Sleek dark mode design with responsive hover effects and clean layout structure.
+*   **Voice Selection**: Instantly detects and lists all TTS voices installed on your system.
+*   **Speech Rate Control**: Custom slider to adjust speed from 80 wpm to 300 wpm (words per minute).
+*   **Speak & Stop Controls**: Multi-threaded controls to start speech playback and interrupt/stop it instantly.
+*   **Status Indicator**: A bottom status bar indicating the application's state ("Ready", "Speaking...").
+*   **Robust & Non-Blocking**: Speech processing is isolated to background worker threads to keep the UI smooth and responsive.
+
+---
+
+## 🛠️ Tech Stack
+*   **Language**: Python 3.x
+*   **GUI Framework**: Tkinter / TTK
+*   **Offline Speech Engine**: `pyttsx3` (Offline support - no internet or API key required)
+
+---
+
+## 📦 Setup & Installation
+
+### Prerequisites
+Make sure you have Python 3 installed on your system.
+
+### Steps
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/vamsi-2003/Text-to-speech-bot.git
+    cd Text-to-speech-bot
+    ```
+
+2.  **Create and Activate Virtual Environment**:
+    *   **Windows**:
+        ```bash
+        python -m venv .venv
+        .venv\Scripts\activate
+        ```
+    *   **macOS/Linux**:
+        ```bash
+        python3 -m venv .venv
+        source .venv/bin/activate
+        ```
+
+3.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Application**:
+    ```bash
+    python tts_bot.py
+    ```
+
+---
+
+## ⚙️ Platform-Specific Requirements
+
+*   **Windows**: Works out of the box using built-in SAPI5 voices (e.g., Microsoft David, Zira).
+*   **Linux**: Requires `espeak-ng` and standard audio tools:
+    ```bash
+    sudo apt-get install espeak-ng
+    ```
+*   **macOS**: Uses the system-native Speech Synthesis Manager.
+
+---
+
+## 🏗️ Build Executable (Optional)
+If you want to package the application as a standalone executable (`.exe` on Windows):
+1.  Install `pyinstaller`:
+    ```bash
+    pip install pyinstaller
+    ```
+2.  Build the bundle:
+    ```bash
+    pyinstaller --noconsole --onefile tts_bot.py
+    ```
+3.  The executable will be located in the `dist/` directory.
