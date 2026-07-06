@@ -237,9 +237,6 @@ class TextToSpeechBot:
         self.stop_btn.bind("<Enter>", lambda e: self._on_btn_hover(self.stop_btn, self.btn_stop_hover))
         self.stop_btn.bind("<Leave>", lambda e: self._on_btn_hover(self.stop_btn, self.btn_stop_normal))
         
-        # Initialize buttons state
-        self._set_speaking_state(False)
-
         # --- Status Bar ---
         self.status_var = tk.StringVar(value="Status: Ready")
         status_bar = tk.Label(
@@ -253,6 +250,9 @@ class TextToSpeechBot:
             pady=6,
         )
         status_bar.pack(fill="x", side="bottom")
+
+        # Initialize buttons and status state
+        self._set_speaking_state(False)
 
     def _clear_placeholder(self, event):
         current_text = self.text_input.get("1.0", "end-1c")
