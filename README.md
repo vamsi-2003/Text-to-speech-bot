@@ -21,6 +21,16 @@ Since this is a desktop application, it cannot be run directly in the browser. Y
 
 ---
 
+## 🔮 Planned Improvements & Roadmap
+Here are some features planned for future releases:
+*   **💾 Export to Audio File**: Save the synthesized speech directly as `.mp3` or `.wav` files.
+*   **📂 Document Reader**: Import and read text directly from `.txt`, `.pdf`, or `.docx` files.
+*   **⏸️ Pause & Resume**: Pause playback mid-sentence and resume from the exact same spot.
+*   **🌓 Dark/Light Theme Toggle**: Seamless toggle to switch between a clean light mode and dark mode.
+*   **🌐 Online Neural Voices**: Optional integration with online TTS engines for more natural, human-like voices.
+
+---
+
 ## 🛠️ Tech Stack
 *   **Language**: Python 3.x
 *   **GUI Framework**: Tkinter / TTK
