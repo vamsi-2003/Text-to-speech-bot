@@ -24,19 +24,14 @@ Final-year Electronics & Communication Engineering student with hands-on softwar
 ### **Frontend Development Intern** | Learntricks
 *Jan 2026 – Feb 2026*
 *   Built an interactive map web app integrating HTML5, CSS3, and JavaScript with Google Maps JS API, Places API, and Directions API.
-*   Implemented live geolocation, autocomplete place search, and category-based filtering (restaurants, hospitals, ATMs) within adjustable search radii.
-*   Added turn-by-turn driving route display via the Directions API and a toggleable dark map theme for the UI.
-*   Secured API keys using Google Cloud Console key restrictions and resolved key vulnerability warnings.
-*   Used Git/GitHub for version control and incorporated iterative feedback throughout development.
+*   Implemented live geolocation, autocomplete place search, category-based filtering, and turn-by-turn driving route display.
+*   Secured API keys using Google Cloud Console key restrictions and utilized Git/GitHub for version control.
 
 ### **Frontend Development Intern** | CodeAlpha (Virtual Internship Program)
 *Mar 2026*
-*   Completed three hands-on frontend tasks using HTML5, CSS3, and vanilla JavaScript (ES6) as part of a virtual internship program.
-*   Built a responsive Image Gallery with CSS Grid, category filters, a keyboard-navigable lightbox viewer, and client-side image uploads.
-*   Developed a fully functional Calculator supporting standard arithmetic operations with complete keyboard input handling.
-*   Built a Music Player with playlist management, autoplay, volume control, and a light/dark theme toggle.
-*   Practiced systematic debugging of JavaScript logic and cross-browser rendering issues, building structured troubleshooting instincts.
-*   Deployed all three projects live via GitHub Pages, each documented with a dedicated README.
+*   Delivered three fully functional web applications (Image Gallery, Calculator, and Music Player) using HTML5, CSS3, and ES6.
+*   Implemented advanced DOM manipulation, CSS Grid layouts, keyboard input navigation, and clean audio playback features.
+*   Practiced systematic debugging of JavaScript logic and cross-browser rendering issues, deploying all projects live via GitHub Pages.
 
 ---
 
